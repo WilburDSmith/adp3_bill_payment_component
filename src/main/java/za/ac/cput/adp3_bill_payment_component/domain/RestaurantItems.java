@@ -1,21 +1,36 @@
 package za.ac.cput.adp3_bill_payment_component.domain;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class RestaurantItems
 {
-    HashMap<String,String> restaurantItems = new HashMap<>();
+    private String itemName;
+    private double itemPrice;
 
-    private void PopulateRestaurantItems()
+    public RestaurantItems(String itemName, double itemPrice)
     {
-        restaurantItems.put("Spaghetti", "R30");
-        restaurantItems.put("Salad", "R50");
-        restaurantItems.put("Burger", "R60");
-        restaurantItems.put("Lobster", "R90");
+        this.itemName = itemName;
+        this.itemPrice = itemPrice;
     }
 
-    public HashMap getRestaurantItems()
+    public String getItemName()
     {
-        return restaurantItems;
+        return itemName;
+    }
+
+    public void setItemName(String itemName)
+    {
+        this.itemName = itemName;
+    }
+
+    public double getItemPrice()
+    {
+        return itemPrice;
+    }
+
+    public void setItemPrice(double itemPrice)
+    {
+        this.itemPrice = itemPrice;
     }
 }

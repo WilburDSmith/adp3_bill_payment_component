@@ -79,7 +79,8 @@ public class LoginPage implements ActionListener {
                     messageLabel.setText("Login successful");
 
                     frame.dispose();
-                    WelcomePage welcomePage = new WelcomePage(userID);
+                    ViewRestaurantItems view = new ViewRestaurantItems();
+                    view.setGUI();
 
                 }
                 else{
