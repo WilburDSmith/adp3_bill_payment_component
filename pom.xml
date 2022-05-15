@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
     <groupId>org.example</groupId>
     <artifactId>bill-payment</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -21,6 +22,11 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+=======
+    <groupId>za.ac.cput.adp3_bill_payment_component.</groupId>
+    <artifactId>adp3_bill_payment_component</artifactId>
+    <version>1.0-SNAPSHOT</version>
+>>>>>>> c146fe4811f9df6c3f8dcf93f9c904871cf108ca
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
